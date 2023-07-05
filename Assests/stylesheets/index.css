@@ -1,4 +1,4 @@
-.nav-img{
+.nav-img {
   position: relative;
   width: 100%;
   height:700;
@@ -13,38 +13,41 @@
 .navbar-light .navbar-brand {
   color: rgba(0,0,0,.55) !important;
 }
-.center-heading{
+.center-heading {
   position: absolute;
   left: 32%;
   font-size: 113px;
   top:50%;
   color: white;
 }
-.center-paragraph{
+.center-paragraph {
   position: absolute;
   left: 32%;
   top:90%;
   color: white;
 }
-.img{
+.img {
   background-image:url(../images/bg-masthead.jpg);
   height: 900px;
 }
-.img-center{
+.img-center {
   text-align: center;
 }
-.col-8{
+.col-8 {
   width: 98.666% !important;
 }
-.heading1{
+.heading1 {
   font-size: 7.5rem !important;
 }
-.paragraph1{
+.paragraph1 {
   font-size: 1.5em !important;
 }
-.button1{
+.button1 {
   width: 14%;
   height: 14%;
+}
+#signup {
+  margin-top: 120px;
 }
 .signup-img {
   background-image:url(../images/bg-signup.jpg);
@@ -53,7 +56,7 @@
 .signup-heading {
   color: white;
 }
-#signup i{
+#signup i {
   color: white;
 }
 #signup input {
@@ -73,19 +76,6 @@
   width: 100px;
   color: whitesmoke;
 }
-/* .content1 {
-  float: left;
-  width: 33.33%;
-  background-color: #fff;
- /* Should be removed. Only for demonstration */
-
-
-/* Clear floats after the columns */
-/* .signup-content:after {
-  content: "";
-  display: table;
-  clear: both;
-} */ 
 .flex-container {
   display: flex;
   justify-content: center;
@@ -102,75 +92,103 @@
   text-align: center;
   border-radius: 5px;
 }
-.flex-container i, hr{
+.flex-container i, hr {
   color: teal !important;
 }
 .flex-container hr {
   height: 2px;
 }
-
-@media only screen and (max-width: 390px) {
-  .heading1{
-    font-size: 2.5rem !important;
-  }
-  .paragraph1{
-    font-size: 1em !important;
-  }
-  .button1{
-    width: 26%;
-    height: 14%;
-    font-size: 0.6em !important;
-  }
-  .img{
-    background-image:url(../images/bg-masthead.jpg);
-    height: 700px;
-  }
-
-}
 .back{
   background:linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);;
 }
-.heading2{
+.heading2 {
   color: white !important;
   margin: 107px;
 }
-.paragraph2{
+.paragraph2 {
   color: wheat !important;
   margin-top: -77px;
-
 }
-.white{
+.white {
   color: white;
 }
-.black{
+.black {
   background-color: black;
 }
-.col-lg-5{
+.col-lg-5 {
   margin: auto !important;
   text-align: center;
 }
-.about-img{
+.about-img {
   height: 500px;
   width: 100% !important;
   margin-top: 28px !important;
 }
-.project-img{
+.project-img {
 height: 100%;
 width: 105%;
 }
-@media only screen and (max-width: 390px) {
-  .heading1{
+.footer {
+  background-color: #000;
+  height: 200px;
+  text-align: center;
+  color: #474242;
+}
+.footer .flex-container {
+  width: 100%;
+  height: 50%;
+}
+.footer .flex-container > div {
+  height: 60px;
+  width: 60px;
+  border-radius: 26px;
+  text-align: center;
+  background-color: #363434;
+}
+.footer .flex-container i {
+  color: rgb(104, 102, 102) !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .heading1 {
     font-size: 2.5rem !important;
   }
-  .paragraph1{
+  .button1 {
+    width: 25%;
+    height: 13%;
+  }
+  .project-section {
+    padding: 70px !important;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container > div {
+    width: 60%;
+  }
+  #signup input {
+    width: 55%;
+    height: 39px;
+    font-size: 13px;
+  }
+  .signup-btn {
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .heading1 {
+    font-size: 2.5rem !important;
+  }
+  .paragraph1 {
     font-size: 1em !important;
   }
-  .button1{
+  .button1 {
     width: 26%;
     height: 14%;
     font-size: 0.6em !important;
   }
-  .img{
+  .img {
     background-image:url(../images/bg-masthead.jpg);
     height: 700px;
   }
@@ -187,18 +205,32 @@ width: 105%;
   width: 100% !important;
   margin-top: 28px !important;
 }
-.project-img{
-
+.project-img {
   height: 100%;
   width: 100% !important;
   }
-  .space{
+  .space {
     margin-top: 22px;
   }
-  .pi{
+  .pi {
     padding: 106px !important;
   }
   .img-fluid {
     max-width: 100%;
     height: 323px !important;
-}  }
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container > div {
+    width: 60%;
+  }
+  #signup input {
+    width: 55%;
+    height: 39px;
+    font-size: 13px;
+  }
+  .signup-btn {
+    height: 35px;
+  }
+}
